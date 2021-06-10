@@ -1,0 +1,24 @@
+{
+  "name": "snapper",
+  "version": "1.0.0",
+  "description": "Node app to take website screenshots.  ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "screenshot",
+    "node",
+    "snap",
+    "website"
+  ],
+  "author": "Amos Cheruiyot",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
